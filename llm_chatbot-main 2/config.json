@@ -1,0 +1,21 @@
+{
+  "models": {
+    "LLaMA 2 Chat (7B)": {
+      "repo_id": "meta-llama/Llama-2-7b-chat-hf",
+      "description": "Meta's 7‑billion parameter instruction‑tuned LLaMA model"
+    },
+    "GPT‑2 (Small)": {
+      "repo_id": "gpt2",
+      "description": "OpenAI's 117M parameter GPT‑2 model for quick experiments"
+    },
+    "OPT (125M)": {
+      "repo_id": "facebook/opt-125m",
+      "description": "Meta's OPT model tuned for causal language modelling"
+    }
+  },
+  "summarizer": {
+    "repo_id": "facebook/bart-large-cnn",
+    "description": "BART summarization model used to compress long chat histories"
+  },
+  "memory_threshold": 6
+}

@@ -1,0 +1,6 @@
+streamlit>=1.32
+transformers>=4.30.0
+torch
+sentencepiece
+accelerate
+pydantic
